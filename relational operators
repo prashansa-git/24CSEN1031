@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    int a = 4, b= 8;
+ printf("Relational Operataors\n");
+    printf("%d < %d = %d\n", a, b, a<b);
+    printf("%d > %d = %d\n", a, b, a>b);
+    printf("%d == %d = %d\n", a, b, a==b);
+    printf("%d != %d = %d\n\n", a, b, a!=b);
+return 0;
+}
+
+output
+Relational Operataors
+4 < 8 = 1
+4 > 8 = 0
+4 == 8 = 0
+4 != 8 = 1
+
+
+
+=== Code Execution Successful ===
