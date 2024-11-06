@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int i = 56;
+    printf("Value of i : %d and its address: %u", i, &i);
+    
+    int *ptr_i;
+    ptr_i = &i;
+    printf("\nValue of ptr_i : %u and value pointed by the pointer is : %d", ptr_i, *ptr_i); 
+
+    return 0;
+}
+
+output
+Value of i : 56 and its address: 3661465924
+Value of ptr_i : 3661465924 and value pointed by the pointer is : 56
