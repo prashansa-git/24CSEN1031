@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+int num= 10;
+   int *ptr=&num;
+   printf("address of num= %u\n",&num);
+   printf("value of pointer= %u\n", ptr);
+   printf("address of pointer= %u\n", &ptr);
+   printf("value of num= %d\n", *ptr);
+    printf("value of num= %d\n", num);
+    
+    return 0;
+}
+
+output
+address of num= 3078452156
+value of pointer= 3078452156
+address of pointer= 3078452144
+value of num= 10
+value of num= 10
