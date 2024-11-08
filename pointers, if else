@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    printf("enter a number:",a);
+    scanf("%d", &a);
+    if(a>10) {
+        printf("bleh okie");
+        int num= a;
+    int *ptr=&num;
+   printf("\naddress of a= %u\n",&num);
+   printf("value of pointer= %u\n", ptr);
+    }
+    else{
+        printf("NO");
+        printf("\nnvm");
+        printf("\ngo ahead, give");
+    printf("\nenter a number:",b);
+    scanf("%d", &b);
+    int num= b;
+    int *ptr=&num;
+   printf("\naddress of b= %u\n",&num);
+   printf("value of pointer= %u\n", ptr);
+    printf("address of ptr= %u\n", &ptr);
+     printf("value of b= %d\n", *ptr);
+      printf("value of b= %d\n", num);
+    }
+
+    return 0;
+}
+
+output
+enter a number:6
+NO
+nvm
+go ahead, give
+enter a number:8
+
+address of b= 1861077096
+value of pointer= 1861077096
+address of ptr= 1861077088
+value of b= 8
+value of b= 8
+
+output 2
+enter a number:12
+bleh okie
+address of a= 4046717724
+value of pointer= 4046717724
