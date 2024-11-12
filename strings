@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char nameone[] = "prashansa g";
+  char nametwo[]= "\nanusca";
+   char namethreeo[]= "\ng";
+  char branch[10];
+  printf("length of the string = %d\n", strlen (nameone));
+  printf("combine two strings %s\n", strcat(nametwo, namethreeo));
+  strcpy(branch, "biotech");
+  printf("branch is %s\n", branch);
+  
+    return 0;
+}
+
+output
+length of the string = 11
+combine two strings 
+anusca
+g
+branch is biotech
